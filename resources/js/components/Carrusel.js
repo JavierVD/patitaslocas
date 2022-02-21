@@ -12,7 +12,7 @@ const Car =()=> {
             <Carousel.Item>
                 <img
                 className="d-block w-100 ImagenBanner"
-                src="../public/images/IMG1.png   "
+                src="/images/IMG1.png   "
                 alt="animal" width="640" height="550"
                 />
                 <Carousel.Caption>
@@ -27,7 +27,7 @@ const Car =()=> {
             <Carousel.Item>
                 <img
                 className="d-block w-100 ImagenBanner"
-                src="../public/images/IMG2.png"
+                src="/images/IMG2.png"
                 alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>
@@ -42,7 +42,7 @@ const Car =()=> {
             <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/f132647-2-h.jpeg"
+               src="/images/f132647-2-h.jpeg"
                alt="animal" width="640" height="560"
                 />
                 <Carousel.Caption>
@@ -57,7 +57,7 @@ const Car =()=> {
               <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/IMG5.png"
+               src="/images/IMG5.png"
                alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>
@@ -72,7 +72,7 @@ const Car =()=> {
               <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/IMG8.png"
+               src="/images/IMG8.png"
                alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>
@@ -87,7 +87,7 @@ const Car =()=> {
               <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/IMG9.png"
+               src="/images/IMG9.png"
                alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>
@@ -102,7 +102,7 @@ const Car =()=> {
               <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/IMG4.png"
+               src="/images/IMG4.png"
                alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>
@@ -117,7 +117,7 @@ const Car =()=> {
               <Carousel.Item>
                 <img
                className="d-block w-100 ImagenBanner"
-               src="../public/images/IMG11.png"
+               src="/images/IMG11.png"
                alt="animal" width="640" height="500"
                 />
                 <Carousel.Caption>

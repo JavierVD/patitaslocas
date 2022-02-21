@@ -163,7 +163,7 @@ export default class Certificados extends React.Component {
                                         fontFamily: "Roboto",
                                         fontStyle: 'normal'
                                     }} variant="body2" component="p"> <br></br>
-                                        <FontAwesomeIcon icon={faPaw} /> www.patitasfelices.com<FontAwesomeIcon icon={faPaw} />
+                                        <FontAwesomeIcon icon={faPaw} /> patitasfelices.azurewebsites.com<FontAwesomeIcon icon={faPaw} />
                                     </Typography>
                                 </CardContent>
                             </Card>

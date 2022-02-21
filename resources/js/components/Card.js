@@ -48,7 +48,7 @@ const Cards =()=> {
         </div>
     </div>
     <div>
-    <img alt="imagen aqui" src='../public/images/fondo12.jpg'></img></div>
+    <img alt="imagen aqui" src='/images/fondo12.jpg'></img></div>
 
             </div>
         </Fragment>

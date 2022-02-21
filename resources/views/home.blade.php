@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <body  style="background: url(./public/images/fondo1.jpg); 
+    <body  style="background: url(/images/fondo1.jpg); 
   background-size: cover;
   
   margin: 0;
