@@ -4,7 +4,7 @@
 <div class="container">
 <img src="../public/images/sabias-png.png" style="width: 150px; margin-left: -60px; margin-bottom: -30px;" height = "60">
 <td>
-    <body  style="background: url(../public/images/fondo4.jpg); 
+    <body  style="background: url(../images/fondo4.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -86,7 +86,7 @@
         <div>
             <p style="text-shadow: 7px 4px 5px black; color: white;">Patitas felices reúne el 60% de ganancias para el mantenimiento de sus albergues</p>
             <p style="text-shadow: 7px 4px 5px black; color: white;">para animales, además de invertir en beneficios para clientes como tú.</p>     
-            <img src="../public/images/saddog.gif" style="width: 150px; margin-left: -60px; margin-bottom: 30px;" height = "180">
+            <img src="../images/saddog.gif" style="width: 150px; margin-left: -60px; margin-bottom: 30px;" height = "180">
             </div>
         </body>
     </td>
