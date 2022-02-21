@@ -7,6 +7,7 @@ use App\Http\Controllers\RazaController;
 use App\Http\Controllers\especieController;
 use App\Http\Controllers\adopcionController;
 use App\Http\Controllers\denunciaController;
+use App\Http\Controllers\tiendaController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -29,6 +30,7 @@ Route::post('/getRazas',[RazaController::class, 'index']);
 Route::get('/getRaza',[RazaController::class, 'all']);
 
 Route::get('/getAll',[adopcionController::class, 'getAll']);
+Route::get('/getProductos',[tiendaController::class, 'getAll']);
 Route::get('/getDenuncia',[denunciaController::class, 'index']);
 Route::post('/storeAdopcion', [adopcionController::class,'store']);
 Route::post('/storedenuncia', [denunciaController::class,'store']);

@@ -18,7 +18,7 @@ const Navbar = () =>{
                         <li className="uli"><a href="solicitudes"className="Menu">Mis solicitudes</a></li>
                         <li className="uli"><a href="certificados"className="Menu">Mis certificados</a></li>
                         <li className="uli"><a href="checkout"className="Menu">Apóyanos</a></li>
-                        <li className="uli"><a href="checkout"className="Menu">Tienda</a></li>
+                        <li className="uli"><a href="tiendita" className="Menu">Productos</a></li>
                   </ul>
             </div>
           </nav>

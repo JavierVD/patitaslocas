@@ -51,6 +51,9 @@ Route::get("/solicitudes", function(){
 Route::get("/certificados", function(){
   return view("certificados");
 });
+Route::get("/tienda", function(){
+  return view("tiendita");
+});
 /*Route::get("/gestion", function(){
   return view("gestion");
 });*/
@@ -82,6 +85,25 @@ Route::post('/checkout', [App\Http\Controllers\CheckoutController::class, 'after
 //Route::get('/test', function () {
     //return view('test');
 //});
+
+use App\Mail\RememberMailable;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\DB;
+
+Route::get('/sendMail1', function(){
+  $correo = new RememberMailable;
+
+  $users = DB::table('users')
+  ->select('email')
+  ->get();
+
+  foreach ($users as $user){
+    Mail::to($user)->send($correo);
+  }
+  
+  return("mensaje enviado");//cambiara a una pagina en blanco confirmando el envio del mail
+});
+
 
 
 

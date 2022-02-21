@@ -14,6 +14,7 @@ require('./bootstrap');
 
 require('./components/Example');
 require('./components/Donation');
+require('./components/Tienda');
 require('./components/Acercade');
 require('./components/Adopcion');
 require('./components/Adminregister');
