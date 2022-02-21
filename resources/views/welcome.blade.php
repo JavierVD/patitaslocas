@@ -18,7 +18,7 @@
             }
         </style>
     </head>
-     <body  style="background: url(../public/images/fondo1_1.jpg); 
+     <body  style="background: url(/images/fondo1_1.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;

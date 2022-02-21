@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-     <body  style="background: url(../public/images/fondo4.jpg); 
+     <body  style="background: url(./public/images/fondo4.jpg); 
   background-size: cover;
 
   margin: 0;

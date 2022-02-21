@@ -16,6 +16,7 @@ const Navuser = () => {
                             <li className="uli"><a href="administrarMascotas" className="Menu">Gestión de Mascotas</a></li>
                             <li className="uli"><a href="gestion" className="Menu">Aprobación de solicitudes</a></li>
                             <li className="uli"><a href="verdenuncia" className="Menu">Ver denuncias</a></li>
+                            <li className="uli"><a href="crmpatitasfelices.azurewebsites.net" className="Menu">Abrir CRM</a></li>
                         </ul>
                     </div>
                 </nav>
